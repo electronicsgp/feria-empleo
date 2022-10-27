@@ -2,14 +2,21 @@
      display: flex;
      min-height: 100vh;
      flex-direction: column;
+     font-family: 'Montserrat', sans-serif;
  }
  
  main {
      flex: 1 0 auto;
  }
  
- .nav-extended {
+ .nav-extended,
+ .page-footer {
      background: linear-gradient(82.04deg, #D12E81 7.69%, #6F1C46 93.86%);
+ }
+ 
+ nav .nav-title {
+     margin: 0px;
+     padding-top: 0px;
  }
  
  .nav-title {
