@@ -1,0 +1,71 @@
+ body {
+     display: flex;
+     min-height: 100vh;
+     flex-direction: column;
+ }
+ 
+ main {
+     flex: 1 0 auto;
+ }
+ 
+ .nav-extended {
+     background: linear-gradient(82.04deg, #D12E81 7.69%, #6F1C46 93.86%);
+ }
+ 
+ .nav-title {
+     font-weight: bold;
+ }
+ 
+ strong {
+     background: -webkit-linear-gradient(82.04deg, #D12E81 7.69%, #6F1C46 93.86%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ 
+ .tab {
+     font-weight: bold;
+ }
+ 
+ i {
+     background: -webkit-linear-gradient(82.04deg, #D12E81 7.69%, #6F1C46 93.86%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ 
+ .tabs .tab a:hover,
+ .tabs .tab a.active {
+     background-color: transparent;
+     color: #6F1C46;
+ }
+ 
+ .tabs .tab a:focus,
+ .tabs .tab a:focus.active {
+     background-color: rgba(111, 18, 70, .7);
+     color: white;
+     outline: none;
+ }
+ 
+ .alert {
+     padding: 5px;
+     margin-bottom: 5px;
+     border: 1px solid transparent;
+     border-radius: 4px;
+ }
+ 
+ .alert-danger {
+     background-color: #cd2e26;
+     border-color: #cd2e26;
+     color: white;
+ }
+ 
+ .content-result {
+     display: none;
+ }
+ 
+ .botonM {
+     display: none;
+ }
+ 
+ p {
+     text-align: justify;
+ }
